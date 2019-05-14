@@ -1,0 +1,25 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "ND",
+      "country": "Mumbai",
+      "gender": "Male",
+      "department": "Google adsense"
+    },
+    {
+      "id": 2,
+      "name": "krulana",
+      "country": "gova",
+      "gender": "FEMale",
+      "department": "Youtube"
+    },
+    {
+      "id": 3,
+      "name": "jaydeeo",
+      "country": "rajkot",
+      "gender": "Male",
+      "department": "SEO"
+    }
+  ]
+}
