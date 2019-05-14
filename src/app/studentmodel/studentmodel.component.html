@@ -1,3 +1,20 @@
-<p>
-  studentmodel works!
-</p>
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>stud Id</th>
+      <th>stud Name</th>
+      <th>stud City</th>
+      <th>stud Gender</th>
+      <th>stud Department</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let student of students">
+      <td>{{ student.id }}</td>
+      <td>{{ student.name }}</td>
+      <td>{{ student.country }}</td>
+      <td>{{ student.gender }}</td>
+      <td>{{ student.department }}</td>
+    </tr>
+  </tbody>
+</table>
